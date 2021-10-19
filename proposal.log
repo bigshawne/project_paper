@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.8.18)  18 OCT 2021 22:30
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.8.18)  18 OCT 2021 22:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -113,8 +113,8 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 
 ]
-Underfull \hbox (badness 2384) in paragraph at lines 78--79
-\TU/ptm/m/n/10.95 phrases, expression, idioms, and culture-
+Underfull \hbox (badness 2253) in paragraph at lines 78--79
+[]\TU/ptm/m/n/10.95 4. Colloquialisms and slang. Infor-
  []
 
 No file proposal.bbl.
@@ -144,6 +144,6 @@ Here is how much of TeX's memory you used:
  20701 multiletter control sequences out of 15000+600000
  408686 words of font info for 55 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 44i,9n,50p,1239b,275s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,9n,50p,1243b,275s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on proposal.pdf (2 pages).
