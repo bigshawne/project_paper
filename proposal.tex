@@ -36,6 +36,8 @@
   {\tt shuweiz@usc.edu} \\\And
   Maiqi Tang \\
   {\tt maiqitan@usc.edu} \\\And
+  Qingyang Zhang \\
+  {\tt qzhang56@usc.edu} \\\And
   Second Author \\
   Affiliation / Address line 1 \\
   Affiliation / Address line 2 \\
@@ -59,6 +61,11 @@ The data set we will use is the data set of user reviews on Yelp. We want to use
 The problem we solved is the recommendation by user's rating cannot fit users' interests well. For example, if we use ratings to find a restaurant that chicken is juicy and its overall rating is exceptionally high, the system recommends it to the user. However, this user prefers chicken, which is overcooked. And we could not find a matched restaurant by rating or simple categories filter. Then we use the NLP algorithm to analyze reviews' similarity. If the recommendation system could find a restaurant's reviews that are similar to the user's old review, this restaurant can better fit the user's interest.
 
 \section{Related Work}
+Currently, recommendation systems are broadly classified into collaborative filtering (CF) and content-based filtering (CB).[1] The fundamental assumption is that if users A and B rate k items similarly, they share similar tastes or preferences, and hence will rate other items similarly. [2] In many recent recommendation system projects, the testing RMSE has already been lower than 1.5. For example, on Kaggle competition (RecSys2013: Yelp Business Rating Prediction), the best testing RMSE is 1.19. Even on highly sparse data (99.98\% sparsity), Chen’s CF model has reached 1.1237 testing RMSE. [3]
+
+Sometimes, users do not want to try some recommended “similar” restaurants, but they want to try some fantastic restaurants that are not in their preference. Most recommendation systems that are based on CF or CB heavily rely on the similarities of preferences or taste which results in a lower rating for restaurants out of user’s preference. As a result, for users who do not want to have the same kind of food or the same kind of environment, these recommendation systems cannot exactly provide new restaurants out of users’ comfort zone.
+
+We want to build a CF recommendation system based on sentiment analysis (SA) on historical reviews to find both the similarities and the differences. The goal is to better understand the characteristics of both customers and restaurants. So, the model can both provide restaurants that are under users’ preference and some new kinds of restaurants that are worthy to try. For reviews, we will try different pre-process and embedding skills, such as CBOW, Skip-Gram, or FastText, to convert review text to vectors. And then we will apply SA to identify the important features or attitudes for each review. Lastly, we will try different CF algorithms to provide more precise recommendations. 
 
 \section{Data}
 
