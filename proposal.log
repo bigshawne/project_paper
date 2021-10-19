@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.8.18)  19 OCT 2021 00:57
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.8.18)  19 OCT 2021 11:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -139,6 +139,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 65--71
 \TU/ptm/m/n/10.95 Currently, recommendation systems are
  []
 
+
+Underfull \hbox (badness 3364) in paragraph at lines 65--71
+\TU/ptm/m/n/10.95 they share similar tastes or preferences,
+ []
+
+
+Underfull \hbox (badness 1210) in paragraph at lines 65--71
+\TU/ptm/m/n/10.95 and hence will rate other items similarly
+ []
+
 [1
 
 
@@ -161,25 +171,21 @@ LaTeX Font Warning: Font shape `TU/ptm/m/it' undefined
 (Font)              using `TU/ptm/m/n' instead on input line 116.
 
 
-Underfull \hbox (badness 1242) in paragraph at lines 126--129
-[]\TU/ptm/m/it/10 Association for Computing Machinery.  1983.
- []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Underfull \hbox (badness 1077) in paragraph at lines 131--136
-\TU/ptm/m/it/10 Stockmeyer.  1981.  Alternation.  Journal
- []
-
-[3] (./proposal.aux)
+ [3] (./proposal.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 1144 strings out of 476919
- 18479 string characters out of 5821840
+ 1141 strings out of 476919
+ 18449 string characters out of 5821840
  328107 words of memory out of 5000000
- 21147 multiletter control sequences out of 15000+600000
+ 21144 multiletter control sequences out of 15000+600000
  408686 words of font info for 55 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  68i,9n,74p,1243b,277s stack positions out of 5000i,500n,10000p,200000b,80000s
