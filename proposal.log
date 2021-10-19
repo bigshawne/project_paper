@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.8.18)  18 OCT 2021 23:46
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.8.18)  19 OCT 2021 00:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -35,81 +35,108 @@ Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 (Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-LaTeX Font Info:    Trying to load font information for TU+ptm on input line 49.
-LaTeX Font Info:    No file TUptm.fd. on input line 49.
+Package graphics Info: Driver file: xetex.def on input line 105.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2021/03/18 v5.0k Graphics/color driver for xetex
+))
+\Gin@req@height=\dimen139
+\Gin@req@width=\dimen140
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count183
+\float@exts=\toks16
+\float@box=\box47
+\@float@everytoks=\toks17
+\@floatcapt=\box48
+)
+LaTeX Font Info:    Trying to load font information for TU+ptm on input line 51.
+LaTeX Font Info:    No file TUptm.fd. on input line 51.
 
 
 LaTeX Font Warning: Font shape `TU/ptm/m/n' undefined
-(Font)              using `TU/lmr/m/n' instead on input line 49.
+(Font)              using `TU/lmr/m/n' instead on input line 51.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
 File: l3backend-xetex.def 2021-03-18 L3 backend support: XeTeX
  (|extractbb --version)
-\c__kernel_sys_dvipdfmx_version_int=\count183
-\l__color_backend_stack_int=\count184
-\g__color_backend_stack_int=\count185
-\g__graphics_track_int=\count186
-\l__pdf_internal_box=\box47
-\g__pdf_backend_object_int=\count187
-\g__pdf_backend_annotation_int=\count188
-\g__pdf_backend_link_int=\count189
+\c__kernel_sys_dvipdfmx_version_int=\count184
+\l__color_backend_stack_int=\count185
+\g__color_backend_stack_int=\count186
+\g__graphics_track_int=\count187
+\l__pdf_internal_box=\box49
+\g__pdf_backend_object_int=\count188
+\g__pdf_backend_annotation_int=\count189
+\g__pdf_backend_link_int=\count190
 ) (./proposal.aux)
 \openout1 = `proposal.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 49.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 49.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 51.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 51.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
 
 
 LaTeX Font Warning: Font shape `TU/ptm/b/n' undefined
-(Font)              using `TU/ptm/m/n' instead on input line 51.
+(Font)              using `TU/ptm/m/n' instead on input line 53.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 51.
+(Font)              <12> on input line 53.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 51.
+(Font)              <8> on input line 53.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 51.
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 51.
+(Font)              <6> on input line 53.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 53.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Trying to load font information for TU+pcr on input line 51.
-LaTeX Font Info:    No file TUpcr.fd. on input line 51.
+LaTeX Font Info:    Trying to load font information for TU+pcr on input line 53.
+LaTeX Font Info:    No file TUpcr.fd. on input line 53.
 
 
 LaTeX Font Warning: Font shape `TU/pcr/m/n' undefined
-(Font)              using `TU/lmr/m/n' instead on input line 51.
+(Font)              using `TU/lmr/m/n' instead on input line 53.
 
 
 Underfull \vbox (badness 1097) has occurred while \output is active []
 
+File: kaggle.jpg Graphic file (type bmp)
+<kaggle.jpg>
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--64
-\TU/ptm/m/n/10.95 Currently, recommendation systems are
+Overfull \hbox (8.53592pt too wide) in paragraph at lines 68--69
+ [][] 
  []
 
 
-Underfull \hbox (badness 2591) in paragraph at lines 63--64
-\TU/ptm/m/n/10.95 (CF) and content-based filtering (CB).[1]
+Underfull \hbox (badness 10000) in paragraph at lines 65--71
+\TU/ptm/m/n/10.95 Currently, recommendation systems are
  []
 
 [1
@@ -118,46 +145,43 @@ Underfull \hbox (badness 2591) in paragraph at lines 63--64
 
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 71.
+(Font)              <10.95> on input line 80.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 71.
+(Font)              <9> on input line 80.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 71.
-
-Underfull \hbox (badness 2384) in paragraph at lines 86--87
+(Font)              <5> on input line 80.
+ [2]
+Underfull \hbox (badness 2384) in paragraph at lines 95--96
 \TU/ptm/m/n/10.95 phrases, expression, idioms, and culture-
  []
 
-[2]
 No file proposal.bbl.
 
 LaTeX Font Warning: Font shape `TU/ptm/m/it' undefined
-(Font)              using `TU/ptm/m/n' instead on input line 111.
+(Font)              using `TU/ptm/m/n' instead on input line 116.
 
 
-Underfull \hbox (badness 1242) in paragraph at lines 121--124
+Underfull \hbox (badness 1242) in paragraph at lines 126--129
 []\TU/ptm/m/it/10 Association for Computing Machinery.  1983.
  []
 
 
-Underfull \hbox (badness 1077) in paragraph at lines 126--131
+Underfull \hbox (badness 1077) in paragraph at lines 131--136
 \TU/ptm/m/it/10 Stockmeyer.  1981.  Alternation.  Journal
  []
 
-[3
-
-] (./proposal.aux)
+[3] (./proposal.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 671 strings out of 476919
- 12153 string characters out of 5821840
- 320222 words of memory out of 5000000
- 20701 multiletter control sequences out of 15000+600000
+ 1144 strings out of 476919
+ 18479 string characters out of 5821840
+ 328107 words of memory out of 5000000
+ 21147 multiletter control sequences out of 15000+600000
  408686 words of font info for 55 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 44i,9n,50p,1243b,275s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,9n,74p,1243b,277s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on proposal.pdf (3 pages).
