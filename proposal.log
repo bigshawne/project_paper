@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.8.18)  19 OCT 2021 11:23
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.8.18)  19 OCT 2021 12:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -161,8 +161,8 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 80.
  [2]
-Underfull \hbox (badness 2384) in paragraph at lines 95--96
-\TU/ptm/m/n/10.95 phrases, expression, idioms, and culture-
+Underfull \hbox (badness 2253) in paragraph at lines 95--96
+[]\TU/ptm/m/n/10.95 5. Colloquialisms and slang. Infor-
  []
 
 No file proposal.bbl.
@@ -171,21 +171,18 @@ LaTeX Font Warning: Font shape `TU/ptm/m/it' undefined
 (Font)              using `TU/ptm/m/n' instead on input line 116.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 7558) has occurred while \output is active []
 
  [3] (./proposal.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 1141 strings out of 476919
- 18449 string characters out of 5821840
+ 1140 strings out of 476919
+ 18446 string characters out of 5821840
  328107 words of memory out of 5000000
- 21144 multiletter control sequences out of 15000+600000
+ 21143 multiletter control sequences out of 15000+600000
  408686 words of font info for 55 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  68i,9n,74p,1243b,277s stack positions out of 5000i,500n,10000p,200000b,80000s
