@@ -36,11 +36,10 @@
   {\tt shuweiz@usc.edu} \\\And
   Maiqi Tang \\
   {\tt maiqitan@usc.edu} \\\And
-  Second Author \\
-  Affiliation / Address line 1 \\
-  Affiliation / Address line 2 \\
-  Affiliation / Address line 3 \\
-  {\tt email@domain} \\
+  Qingyang Zhang \\
+  {\tt qzhang56@usc.edu} \\\And
+   Yucan Luo \\
+  {\tt yucanluo@usc.edu}
   }
 
 \date{}
@@ -59,6 +58,11 @@ The data set we will use is the data set of user reviews on Yelp. We want to use
 The problem we solved is the recommendation by user's rating cannot fit users' interests well. For example, if we use ratings to find a restaurant that chicken is juicy and its overall rating is exceptionally high, the system recommends it to the user. However, this user prefers chicken, which is overcooked. And we could not find a matched restaurant by rating or simple categories filter. Then we use the NLP algorithm to analyze reviews' similarity. If the recommendation system could find a restaurant's reviews that are similar to the user's old review, this restaurant can better fit the user's interest.
 
 \section{Related Work}
+Currently, recommendation systems are broadly classified into collaborative filtering (CF) and content-based filtering (CB).[1] The fundamental assumption is that if users A and B rate k items similarly, they share similar tastes or preferences, and hence will rate other items similarly. [2] In many recent recommendation system projects, the testing RMSE has already been lower than 1.5. For example, on Kaggle competition (RecSys2013: Yelp Business Rating Prediction), the best testing RMSE is 1.19. Even on highly sparse data (99.98\% sparsity), Chen’s CF model has reached 1.1237 testing RMSE. [3]
+
+Sometimes, users do not want to try some recommended “similar” restaurants, but they want to try some fantastic restaurants that are not in their preference. Most recommendation systems that are based on CF or CB heavily rely on the similarities of preferences or taste which results in a lower rating for restaurants out of user’s preference. As a result, for users who do not want to have the same kind of food or the same kind of environment, these recommendation systems cannot exactly provide new restaurants out of users’ comfort zone.
+
+We want to build a CF recommendation system based on sentiment analysis (SA) on historical reviews to find both the similarities and the differences. The goal is to better understand the characteristics of both customers and restaurants. So, the model can both provide restaurants that are under users’ preference and some new kinds of restaurants that are worthy to try. For reviews, we will try different pre-process and embedding skills, such as CBOW, Skip-Gram, or FastText, to convert review text to vectors. And then we will apply SA to identify the important features or attitudes for each review. Lastly, we will try different CF algorithms to provide more precise recommendations. 
 
 \section{Data}
 
@@ -73,13 +77,17 @@ The review data set had over 8 million instances, and it is hard to load all the
 
 2. Irony and sarcasm. Language models usually interpret words or phrases, it can be positive or negative, however, in fact, the words or phrases actually connote the opposite.
 
-3. Error in text.  Misspelled or misused words can also cause problems for sentence text analysis. Although we can use grammar correction to alleviate problems, it cannot interpret the writer's intention.
+3. Grammar error in text. Misused words and wrong sentence structure can also cause problems for sentence text analysis. Although we can use grammar correction to alleviate this problem, the correction will not be perfect.
 
-4. Colloquialisms and slang. Informal phrases, expression, idioms, and culture-specific lingo also present problems for language modeling. Cultural slang is constantly morphing and expanding, so new phrases and words pop up every day. It is hard for a formal language model to distinguish new words and phrases.
+4. Misspelled word. The Misspelled word will cause inaccuracy of performance. Even though there are some algorithms to correct misspelled words, the correction will not be accurate because the choice of correct word only depends on the misspelled word but not the understanding of the whole sentence.
 
-5. Large data sets cause scale problems. For some reviews, it is too short to perform language analysis. One option to solve the problems is padding the shorter reviews or treat it as the outlier and remove it. 
+5. colloquialisms and slang. Informal phrases, expression, idioms, and culture-specific lingo also present problems for language modeling. Furthermore, cultural slang is constantly morphing and expanding, so new phrases and words pop up every day. It is hard for a formal language model to distinguish new words and phrases.
 
-6. New users can also present problems. Our model will find similar reviews and then recommend restaurants to users who share similar tastes. But this model cannot be applied to the new users in the platform, because they may not have comments yet. We can tackle this problem by implementing the content based analysis, which is a data mining technical. 
+6. For some reviews, it is too short to perform language analysis. One option to solve the problems is padding the shorter reviews or treat it as the outlier and remove it. 
+
+7. new users can also present problems. Since we need to find similar reviews and then recommend restaurants to users who share similar tastes. But since new users have no reviews yet, it cannot recommend any restaurant to them based on similarity. We can tackle this problem by implementing a data mining technical, content based analysis. 
+
+8. Large datasets cause scale problems. The data set had over 8 million instances, so the training process will take a long time. Especially we need to train different models and each with different parameters. 
 
 
 
