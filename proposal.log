@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.8.18)  18 OCT 2021 21:58
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.8.18)  18 OCT 2021 22:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -113,24 +113,26 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 
 ]
+Underfull \hbox (badness 2384) in paragraph at lines 78--79
+\TU/ptm/m/n/10.95 phrases, expression, idioms, and culture-
+ []
+
 No file proposal.bbl.
 
 LaTeX Font Warning: Font shape `TU/ptm/m/it' undefined
-(Font)              using `TU/ptm/m/n' instead on input line 88.
+(Font)              using `TU/ptm/m/n' instead on input line 101.
 
 
-Underfull \hbox (badness 1242) in paragraph at lines 98--101
+Underfull \hbox (badness 1242) in paragraph at lines 111--114
 []\TU/ptm/m/it/10 Association for Computing Machinery.  1983.
  []
 
 
-Underfull \hbox (badness 1077) in paragraph at lines 103--108
+Underfull \hbox (badness 1077) in paragraph at lines 116--121
 \TU/ptm/m/it/10 Stockmeyer.  1981.  Alternation.  Journal
  []
 
-[2
-
-] (./proposal.aux)
+[2] (./proposal.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
