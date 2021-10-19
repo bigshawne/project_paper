@@ -77,13 +77,17 @@ The review data set had over 8 million instances, and it is hard to load all the
 
 2. Irony and sarcasm. Language models usually interpret words or phrases, it can be positive or negative, however, in fact, the words or phrases actually connote the opposite.
 
-3. Error in text.  Misspelled or misused words can also cause problems for sentence text analysis. Although we can use grammar correction to alleviate problems, it cannot interpret the writer's intention.
+3. Grammar error in text. Misused words and wrong sentence structure can also cause problems for sentence text analysis. Although we can use grammar correction to alleviate this problem, the correction will not be perfect.
 
-4. Colloquialisms and slang. Informal phrases, expression, idioms, and culture-specific lingo also present problems for language modeling. Cultural slang is constantly morphing and expanding, so new phrases and words pop up every day. It is hard for a formal language model to distinguish new words and phrases.
+4. Misspelled word. The Misspelled word will cause inaccuracy of performance. Even though there are some algorithms to correct misspelled words, the correction will not be accurate because the choice of correct word only depends on the misspelled word but not the understanding of the whole sentence.
 
-5. Large data sets cause scale problems. For some reviews, it is too short to perform language analysis. One option to solve the problems is padding the shorter reviews or treat it as the outlier and remove it. 
+5. colloquialisms and slang. Informal phrases, expression, idioms, and culture-specific lingo also present problems for language modeling. Furthermore, cultural slang is constantly morphing and expanding, so new phrases and words pop up every day. It is hard for a formal language model to distinguish new words and phrases.
 
-6. New users can also present problems. Our model will find similar reviews and then recommend restaurants to users who share similar tastes. But this model cannot be applied to the new users in the platform, because they may not have comments yet. We can tackle this problem by implementing the content based analysis, which is a data mining technical. 
+6. For some reviews, it is too short to perform language analysis. One option to solve the problems is padding the shorter reviews or treat it as the outlier and remove it. 
+
+7. new users can also present problems. Since we need to find similar reviews and then recommend restaurants to users who share similar tastes. But since new users have no reviews yet, it cannot recommend any restaurant to them based on similarity. We can tackle this problem by implementing a data mining technical, content based analysis. 
+
+8. Large datasets cause scale problems. The data set had over 8 million instances, so the training process will take a long time. Especially we need to train different models and each with different parameters. 
 
 
 
